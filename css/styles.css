@@ -49,13 +49,6 @@ img {
   align-items: center;
 }
 
-.container-hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 188px 0 188px;
-}
-
 .logo-studio,
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -119,9 +112,16 @@ img {
 
 /* Main content */
 /* Section 1 */
+.container-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -160,9 +160,6 @@ img {
 }
 
 /* Section 2 */
-/* Hiden .features-title{
-
-}*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -176,8 +173,9 @@ img {
   overflow: hidden;
 }
 
-.container-feature {
-  padding: 120px 0 120px;
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-list {
@@ -208,7 +206,9 @@ img {
 
 /* Section 3 */
 .team {
-  background-color: #f4f4fd;
+  background-color: #f4f4fd
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-item {
@@ -223,6 +223,36 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.mark {
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 0;
+}
+
+.tom {
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 0;
+}
+
+.daniel {
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 0;
+}
+
+.camila {
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 0;
 }
 
 .team-subtitle {
