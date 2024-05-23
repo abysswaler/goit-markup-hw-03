@@ -206,8 +206,8 @@ img {
 
 /* Section 3 */
 .team {
-  background-color: #f4f4fd
-  padding: 120px 0 120px;
+  background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-item {
@@ -222,9 +222,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .team-list {
@@ -234,25 +232,22 @@ img {
 
 .team-item {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .mark {
-  border-radius: 0px 0px 4px 4px;
   padding: 32px 0;
 }
 
 .tom {
-  border-radius: 0px 0px 4px 4px;
   padding: 32px 0;
 }
 
 .daniel {
-  border-radius: 0px 0px 4px 4px;
   padding: 32px 0;
 }
 
 .camila {
-  border-radius: 0px 0px 4px 4px;
   padding: 32px 0;
 }
 
@@ -263,6 +258,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .team-text {
