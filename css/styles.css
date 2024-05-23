@@ -273,6 +273,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   width: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
 }
 
 .container-content {
@@ -289,6 +290,14 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-subtitle {
@@ -308,13 +317,20 @@ img {
   color: #434455;
 }
 
-/* Footer */
+/* -----------------Footer----------------- */
+
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.conteiner-footer {
 }
 
 .footer-logo {
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -327,4 +343,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
