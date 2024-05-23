@@ -223,6 +223,7 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -232,22 +233,10 @@ img {
 
 .team-item {
   width: calc((100% - 72px) / 4);
+}
+
+.team-list-item {
   border-radius: 0px 0px 4px 4px;
-}
-
-.mark {
-  padding: 32px 0;
-}
-
-.tom {
-  padding: 32px 0;
-}
-
-.daniel {
-  padding: 32px 0;
-}
-
-.camila {
   padding: 32px 0;
 }
 
@@ -258,7 +247,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
   margin-bottom: 8px;
 }
 
