@@ -137,7 +137,7 @@ img {
 
 .hero {
   background-color: #2e2f42;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -147,7 +147,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
+
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
